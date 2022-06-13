@@ -14,3 +14,32 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+const arr = tutorials.map(sentence) => {
+  const words = sentence.split(" ");
+  const wordTitle = words.map((word) =>
+    word.charAt(0).toUpperCase() + word.slice(1))
+  const result = wordtitle.join("");
+  return result;
+    
+  })
+  return arr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
